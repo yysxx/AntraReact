@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: calc(100% - 1rem);
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#people-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.person-card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33.333% - 1rem);
+    box-sizing: border-box;
+}
+
+.person-card h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.person-card p {
+    margin: 0.5rem 0;
+    color: #666;
+}
